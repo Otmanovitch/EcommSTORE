@@ -32,12 +32,12 @@
         </div>
         <div class="col-6">
             <h6 class="text-info text-center">Search by keyword </h6>
-            <form>
+            <form (ngSubmit)="filterbyKeyword(searchK)" #searchK="ngForm">
                 <div class="row">
 
                     <div class="col-6">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search by keyword">
+                            <input type="text"  name="keyword" ngModel placeholder="Search by keyword">
                         </div>
                     </div>
                     <div class="col-6">

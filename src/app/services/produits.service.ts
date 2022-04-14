@@ -28,11 +28,14 @@ disponible(p:any){
   return this.http.patch("http://localhost:3000/products/" + p.id, {Stock: !Stock})
 }
 
-filterbyPrice(search:any){
+filterbyPriceservices(search:any){
   let price_min= search.value.price_min;
   let price_max= search.value.price_max;
   return this.http.get("http://localhost:3000/products/?price_gte="+price_min+"&price_lte="+price_max)
 }
 
-
+filterbyKeywordServices(searchK: any){
+  let keyword= searchK.value.keyword;
+  return this.http.get("http://localhost:3000/products/?q="+keyword)
+}
 }

@@ -44,7 +44,7 @@ product: any;
 
   filterbyPrice(search : any ){
   /* let search= search.value;**/
-    this.ps.filterbyPrice(search).subscribe(data => {
+    this.ps.filterbyPriceservices(search).subscribe(data => {
     this.product = data;
     
 
@@ -54,4 +54,12 @@ product: any;
 
  
     
-  )  }   }
+  )  }
+
+  filterbyKeyword(searchK : any){
+    this.ps.filterbyKeywordServices(searchK).subscribe(data => {
+      this.product = data;
+      
+    })
+  }
+}
