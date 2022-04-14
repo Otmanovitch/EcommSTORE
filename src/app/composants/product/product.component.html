@@ -1,0 +1,75 @@
+<div class="container">
+    <h1 class="text-center text-warning mt-4 mb-4">la liste de mes produits {{product.length}}</h1>
+
+    <!--<div *ngFor="let p of product">
+        <p>
+            {{p.title}}
+        </p>
+
+    </div>-->
+    <div class="row">
+        <div class="col-6">
+            <h6 class="text-info text-center">Search by price range</h6>
+            <!--*********************Début formulaire price range*****************************************                 -->
+            <form>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="form-group">
+                            <input type="number" class="form-control" placeholder="Enter le prix min">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <input type="number" class="form-control" placeholder="Enter the max price">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <button type="submit" class="btn btn-primary">Search by price range</button>
+                    </div>
+                </div>
+            </form>
+            <!--*********************Fin formulaire price range*****************************************                 -->
+        </div>
+        <div class="col-6">
+            <h6 class="text-info text-center">Search by keyword </h6>
+            <form>
+                <div class="row">
+
+                    <div class="col-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search by keyword">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <button type="submit" class="btn btn-primary">Search by keyword</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <section class="row border mt-4 ">
+        <div class="col-4 border" *ngFor="let p of product">
+            <img src="{{p.image}}" class="card-img-top shadow-sm " alt="...">
+
+
+
+            <h5 class="card-title">{{p.title}}</h5>
+            <p class="card-text">{{p.description}}</p>
+            <!--<h5 class="card-stock">{{p.Stock}}</h5>-->
+
+            <div class="text-muted">
+                <span class="col-4 "><a href="#" class="btn btn-info btn-sm">{{p.price}}$</a></span>
+                <span class="col-4 m-4"><i class="fa-solid fa-lg"
+                        [ngClass]="{'fa-solid fa-thumbs-down': !p.Stock, 'fa-solid fa-thumbs-up': p.Stock}"
+                        (click)="disponible(p)"> </i>
+                </span>
+                <span class="col-4"><button (click)="deleteProduct(p.id)">Delete</button>
+                </span>
+
+            </div>
+
+
+        </div>
+
+    </section>

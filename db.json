@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Fraise",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure voluptate vel nam voluptatum facere culpa, omnis et distinctio sint. Nihil provident quae rerum, maiores quaerat ex accusamus?",
+      "image": "https://imgs.search.brave.com/zzKtrbCTNwZORIHOunwXpgRCC1k_G9MpecdEHQsAW70/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5T/M3h4ZnNjSUlEcDVY/QjRXa25zUFB3SGFF/OCZwaWQ9QXBp",
+      "price": 25,
+      "Stock": true,
+      "stock": false
+    },
+    {
+      "id": 2,
+      "title": "Pommes",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure voluptate vel nam voluptatum facere culpa, omnis et distinctio sint. Nihil provident quae rerum, maiores quaerat ex accusamus?",
+      "image": "https://imgs.search.brave.com/99WvoW9pFin2sSVYhZgGaRovLBU92g7nDhMmSTrFCWQ/rs:fit:708:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5O/dl9tdTN6RXhhUjE5/V1pnSjlkV3RBSGFF/OSZwaWQ9QXBp",
+      "price": 12,
+      "Stock": true
+    },
+    {
+      "id": 3,
+      "title": "Bannanes",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure voluptate vel nam voluptatum facere culpa, omnis et distinctio sint. Nihil provident quae rerum, maiores quaerat ex accusamus?",
+      "image": "https://imgs.search.brave.com/rWEbvRplEbqM0XKYLBxWXgpRmj98_KM-Ezy7K2Ew_ss/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5k/bW5qQm1NVTAwYTJ3/VnpYREdsZzZnSGFF/OCZwaWQ9QXBp",
+      "price": 35,
+      "Stock": true
+    },
+    {
+      "id": 4,
+      "title": "kiwi",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure voluptate vel nam voluptatum facere culpa, omnis et distinctio sint. Nihil provident quae rerum, maiores quaerat ex accusamus?",
+      "image": "https://imgs.search.brave.com/jDcyJsdAwskbNSJg1CrcrHn-_FlyUXvH4bq3iOfALUM/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5B/WTJkOFBqeVVPYTZ0/dDZQeERrcUR3SGFF/NyZwaWQ9QXBp",
+      "price": 36,
+      "Stock": true
+    },
+    {
+      "id": 5,
+      "title": "Mangue",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure voluptate vel nam voluptatum facere culpa, omnis et distinctio sint. Nihil provident quae rerum, maiores quaerat ex accusamus?",
+      "image": "https://imgs.search.brave.com/XjEbubViBG1QCP4jxcuj0Bc3OzrncQtVKpvpi3-XEB4/rs:fit:704:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5r/RDlrNVplZ3c3OXIw/alR4dXE3VEJ3SGFF/XyZwaWQ9QXBp",
+      "price": 80,
+      "Stock": true
+    },
+    {
+      "id": 6,
+      "title": "Mandarine",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure voluptate vel nam voluptatum facere culpa, omnis et distinctio sint. Nihil provident quae rerum, maiores quaerat ex accusamus?",
+      "image": "https://imgs.search.brave.com/UPDTbpY5Rn2SJYra7ei-bk81NP_csFnyDzrPeZMt4-A/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4y/eEVhTnkxM3hiZ0NB/Y3Via1BJOTdnSGFF/NyZwaWQ9QXBp",
+      "price": 75,
+      "Stock": true
+    },
+    {
+      "id": 7,
+      "title": "Cerise",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure voluptate vel nam voluptatum facere culpa, omnis et distinctio sint. Nihil provident quae rerum, maiores quaerat ex accusamus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure  ",
+      "image": "https://imgs.search.brave.com/pbKUqvAosoDaDYVWraRnKKsHCQZfYN8mi0dGEzA1MPY/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5q/M05aMzZlbnFreVdO/SDAyRkdyb0pRSGFF/SyZwaWQ9QXBp",
+      "price": 100,
+      "Stock": true
+    },
+    {
+      "id": 8,
+      "title": "Avocat",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure voluptate vel nam voluptatum facere culpa, omnis et distinctio sint. Nihil provident quae rerum, maiores quaerat ex accusamus?,Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure voluptate vel nam voluptatum facere culpa, omnis et distinctio sint. Nihil provident quae rerum, maiores quaerat ex accusamus?",
+      "image": "https://imgs.search.brave.com/5tSWcg4AB_vo9ZSYYAuKgMJeGnXwnwUcKO9v1cerhBQ/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5j/X0wwX3RpV3lfZVNK/bHJ5LUFkcjBBSGFF/OCZwaWQ9QXBp",
+      "price": 75,
+      "Stock": true
+    },
+    {
+      "id": 9,
+      "title": "Ananas",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure voluptate vel nam voluptatum facere culpa, omnis et distinctio sint. Nihil provident quae rerum, maiores quaerat ex accusamus?",
+      "image": "https://imgs.search.brave.com/vlhFVaaXYUFNMM3U22TaCcVW-_4lDKVPdK88H5nMf_g/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC43/blFHNF9MazVJcHFH/OGxacjZpTlZ3SGFI/YSZwaWQ9QXBp",
+      "price": 18,
+      "Stock": true
+    },
+    {
+      "id": 10,
+      "title": "Crenberry",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure voluptate vel nam voluptatum facere culpa, omnis et distinctio sint. Nihil provident quae rerum, maiores quaerat ex accusamus?",
+      "image": "https://imgs.search.brave.com/8X_AX7I83RZS7SJb_w_i1-b7clvr7y1Jkc0CVwoJuwc/rs:fit:748:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5P/UEpPbzRsYUlTRWZX/eEN0b2lUU2x3SGFF/cyZwaWQ9QXBp",
+      "price": 15,
+      "Stock": true
+    },
+    {
+      "id": 11,
+      "title": "fruit de la passion",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure voluptate vel nam voluptatum facere culpa, omnis et distinctio sint. Nihil provident quae rerum, maiores quaerat ex accusamus?",
+      "image": "https://imgs.search.brave.com/DSo-ZrJsK6slG1RttalBecy0RmfF2-mPWaAMza03DBk/rs:fit:583:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5w/RXNSWFVKSDZnWjF4/TlNxWklvWFlRSGFH/QiZwaWQ9QXBp",
+      "price": 65,
+      "Stock": true
+    },
+    {
+      "id": 12,
+      "title": "Kaki",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure voluptate vel nam voluptatum facere culpa, omnis et distinctio sint. Nihil provident quae rerum, maiores quaerat ex accusamus?",
+      "image": "https://imgs.search.brave.com/RTcqLSq5FECDK8GjdDrQIvU9jcMHY0OUew4YtKGmNlI/rs:fit:731:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5R/WWZfMEktV2hPNklX/SjFNT0w1WlVBSGFF/eiZwaWQ9QXBp",
+      "price": 120,
+      "Stock": true
+    },
+    {
+      "id": 13,
+      "title": "Fruit de dragon",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur error iure voluptate vel nam voluptatum facere culpa, omnis et distinctio sint. Nihil provident quae rerum, maiores quaerat ex accusamus?",
+      "image": "https://imgs.search.brave.com/PrWnKM1xo8lfEDzlh3n9X7ZFonXL-JxYgRJQYJJ4v1k/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4x/NjY5VHZRMWR5aDFN/RE5nZlBQamZ3SGFF/NyZwaWQ9QXBp",
+      "price": 200,
+      "Stock": false
+    }
+  ]
+}
