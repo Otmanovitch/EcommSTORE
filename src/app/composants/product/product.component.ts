@@ -37,15 +37,21 @@ product: any;
       this.getProduits();
       console.log("disponible");
     })
+
+  }
+
+
+
+  filterbyPrice(search : any ){
+  /* let search= search.value;**/
+    this.ps.filterbyPrice(search).subscribe(data => {
+    this.product = data;
     
 
-    
       
-  
     
+    }
 
-  
  
-
-}
-}
+    
+  )  }   }
