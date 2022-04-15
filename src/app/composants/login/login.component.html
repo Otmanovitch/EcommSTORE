@@ -1,5 +1,13 @@
-<div class="container"></div>
+<div class="container mt-4"></div>
 <h1 class="text-center mt-4 mb-4">Connexion :</h1>
+
+
+<div class="bg-danger p-4 text-white " *ngIf="message">
+    Identifiants incorrects
+</div>
+
+
+    
 <!--Formulaire début-->
 <form (ngSubmit)="login(loginform)" #loginform="ngForm">
     <div class="form-group">
@@ -9,7 +17,7 @@
     </div>
     <div class="form-group">
         <label>Description produit</label>
-        <input type="passeword" class="form-control" name="passeword" ngModel required placeholder="Entrer passeword">
+        <input type="password" class="form-control" name="password" ngModel required placeholder="Entrer passeword">
     </div>
    
     <button type="submit" class="btn btn-primary">Se connecter</button>
