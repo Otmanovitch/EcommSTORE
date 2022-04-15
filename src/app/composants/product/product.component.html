@@ -65,7 +65,7 @@
                 <!--*********************Début formulaire modify*********************************************************************-->
                 <!-- -->
                 <span class="col-4"><button (click)="editProduct(p)" class="btn btn-primary" data-toggle="modal"
-                        data-target="#exampleModal">Modify</button>
+                        data-target="#exampleModal" *ngIf="IsAuth">Modify</button>
                 </span>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" role="dialog">

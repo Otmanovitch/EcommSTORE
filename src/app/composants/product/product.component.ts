@@ -16,11 +16,14 @@ productedited={
   price :0,
   Stock :false
 };
+IsAuth= this.ps.isAuthenticated;
 
   constructor(private ps : ProduitsService ) { }
 
   ngOnInit(): void {
+    this.IsAuth;
     this.getProduits();
+    
   }
 
   getProduits(){
