@@ -9,6 +9,14 @@ import { ProduitsService } from 'src/app/services/produits.service';
 export class ProductComponent implements OnInit {
 product: any;
 
+productedited={
+  title :"",
+  description:"",
+  image :"",
+  price :0,
+  Stock :false
+};
+
   constructor(private ps : ProduitsService ) { }
 
   ngOnInit(): void {
@@ -40,19 +48,12 @@ product: any;
 
   }
 
-
-
   filterbyPrice(search : any ){
   /* let search= search.value;**/
     this.ps.filterbyPriceservices(search).subscribe(data => {
     this.product = data;
     
-
-      
-    
     }
-
- 
     
   )  }
 
@@ -62,4 +63,26 @@ product: any;
       
     })
   }
+
+  editProduct(p: any){
+    this.productedited= p;
+    console.log(this.productedited);
+
+    
+  }
+
+  updateProduct(){
+    this.ps.editproductService(this.productedited).subscribe(() =>{
+      console.log("updated");
+      
+    })
+  }
+
+  
 }
+  
+
+
+
+
+

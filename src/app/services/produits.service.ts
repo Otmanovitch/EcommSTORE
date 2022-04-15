@@ -20,8 +20,6 @@ addProduits(produit:any){
   return this.http.post("http://localhost:3000/products", produit)
 }
 
-
-
 disponible(p:any){
   let Stock = p.Stock;
 
@@ -37,5 +35,10 @@ filterbyPriceservices(search:any){
 filterbyKeywordServices(searchK: any){
   let keyword= searchK.value.keyword;
   return this.http.get("http://localhost:3000/products/?q="+keyword)
+}
+
+
+editproductService(p: any){
+  return this.http.patch("http://localhost:3000/products/" +p.id,p)
 }
 }
